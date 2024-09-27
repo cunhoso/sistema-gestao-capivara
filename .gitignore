@@ -1,0 +1,46 @@
+Thumbs.db
+node_modules
+/dist
+/build
+/coverage
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+/logs
+*.log
+
+# Editor de diretorios e arquivos
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+.directory
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Database files
+*.sqlite
+*.sqlite3
